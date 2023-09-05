@@ -132,21 +132,18 @@ const props = defineProps(["name", "type", "link"])
         top: 50%;
         transform: translate(-50%, -50%);
         transition: all .3s ease-in-out 0s;
-        width: 250px;
+        width: 150px;
     }
     .button{
         font-size: 16px;
         padding: 15px 50px;
     }
    .button-project {
-        font-size: 20px;
         font-weight: 900;
-        padding: 15px 80px;
     }
     .button-project:before{
-        height: 80px;
         border: 3px solid #759BFD;
-        width: 250px;
+        width: 150px;
     }
     .button-project:after{
         height: 80px;

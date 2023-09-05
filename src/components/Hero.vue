@@ -42,15 +42,16 @@
     text-align: center;
     background-color:rgb(90 196 243 / 16%);
     color: #759BFD;
-    padding: 5px 10px;
-    font-size: 20px;
+    padding: 15px 10px;
+    font-size: 15px;
     font-weight: 900;
     border-radius: 15px;
 }
 .texte-container h1{
     color: white;
-    font-family: Exospace;
-    font-size: 55px;
+    font-size: 45px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin-top: 40px;
     margin-bottom: 20px;
     font-weight: 900;
@@ -58,7 +59,6 @@
 }
 .texte-container h2{
     font-size: 18px;
-    font-family: Exospace;
     font-weight: 700;
     letter-spacing: .04em;
     line-height: 30px;
@@ -81,8 +81,8 @@ width: 80%;
 max-width: 800px;
 }
 .text-blue {
+    font-weight: 900;
     color: #759BFD;
-    font-family: Cyborg;
 }
 @media (max-width: 1350px) {
     .texte-container h1 {

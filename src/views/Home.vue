@@ -61,7 +61,6 @@ onMounted(() => {
 body{
     margin: 0px;
     background-color: #050810;
-    font-family:Exospace;
 }
 
 .technologies-container{

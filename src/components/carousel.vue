@@ -127,7 +127,8 @@ export default {
         font-size: 28px;
         margin-bottom: 10px;
         color: #759BFD;
-        font-family: Cyborg;
+        font-family: 'Montserrat', sans-serif;
+        font-family: 'Roboto', sans-serif;
         text-shadow: 3px 3px 0 #1f2127, -1px -1px 0 #1f2127, 1px -1px 0 #1f2127, -1px 1px 0 #1f2127, 1px 1px 0 #1f2127;
         text-transform: uppercase;
     }

@@ -56,7 +56,7 @@ const props = defineProps(["workData"]);
     border: 3px solid #759BFD;
     box-shadow: 6px 6px 0 0 #759BFD;
     color: #759BFD;
-    font-size:18px;
+    font-size:20px;
     font-weight: 900;
     padding: 15px 20px;
     text-transform: uppercase;
@@ -73,11 +73,11 @@ const props = defineProps(["workData"]);
 }
 .text-blue-work {
     color: #759BFD;
-    font-family: Exospace;
 }
 .work-image {
     border-radius: 15px;
     box-shadow: 0 60px 123px -25px hsla(225, 2%, 62%, .42), 0 35px 75px -35px hsla(225, 2%, 62%, .08);
+    -webkit-filter: blur(0);
     filter: blur(0);
     height: 398px;;
     max-height: 550px;
@@ -85,6 +85,7 @@ const props = defineProps(["workData"]);
     transition: all .6s ease;
     width: 100%;
     max-width: 800px;
+    -webkit-transform: perspective(800px) rotateY(-25deg) scale(.8) rotateX(10deg);
     transform: perspective(800px) rotateY(-25deg) scale(.8) rotateX(10deg);
 }
 .work-image-paire{
@@ -93,7 +94,8 @@ const props = defineProps(["workData"]);
     -webkit-filter: blur(0);
     filter: blur(0);
     opacity: 1;
-    transform: perspective(800px) rotateY(25deg) scale(.8) rotateX(10deg);
+    transform: perspective(800px) rotateY(15deg) translateY(-50px) rotateX(10deg) scale(0.9);
+    -webkit-transform: perspective(800px) rotateY(15deg) translateY(-50px) rotateX(10deg) scale(0.9);
     transition: all .6s ease;
     width: 100%;
     height: 398px;;
@@ -103,12 +105,15 @@ const props = defineProps(["workData"]);
 .work-image:hover {
     box-shadow: 0 19px 67px -38px hsla(225,2%,62%,.8);
     filter: blur(0.2px);
+    -webkit-filter: blur(0.2);
+    -webkit-transform: perspective(800px) rotateY(15deg) translateY(-50px) rotateX(10deg) scale(0.9);
     transform: perspective(800px) rotateY(15deg) translateY(-50px) rotateX(10deg) scale(0.9);
 }
 .work-image-paire:hover {
     box-shadow: 0 19px 67px -38px hsla(225,2%,62%,.8);
     filter: blur(0.2px);
     transform: perspective(800px) rotateY(-15deg) translateY(-50px) rotateX(10deg) scale(0.9);
+    -webkit-transform: perspective(800px) rotateY(-15deg) translateY(-50px) rotateX(10deg) scale(0.9);
 }
 @media (min-width: 1921px) {
    .work-image {
@@ -172,15 +177,19 @@ const props = defineProps(["workData"]);
         max-width: 900px;
     }
     .work-image{
+        -webkit-transform:perspective(800px) rotateY(-20deg) scale(.8) rotateX(10deg);
         transform: perspective(800px) rotateY(-20deg) scale(.8) rotateX(10deg);
     }
     .work-image-paire{
+        -webkit-transform: perspective(800px) rotateY(20deg) scale(.8) rotateX(10deg);
         transform: perspective(800px) rotateY(20deg) scale(.8) rotateX(10deg);
     }
     .work-image:hover {
-    transform: perspective(800px) rotateY(10deg) translateY(-50px) rotateX(10deg) scale(0.9);
+        -webkit-transform: perspective(800px) rotateY(10deg) translateY(-50px) rotateX(10deg) scale(0.9);
+        transform: perspective(800px) rotateY(10deg) translateY(-50px) rotateX(10deg) scale(0.9);
     }
     .work-image-paire:hover {
+         -webkit-transform: perspective(800px) rotateY(-10deg) translateY(-50px) rotateX(10deg) scale(0.9);
         transform: perspective(800px) rotateY(-10deg) translateY(-50px) rotateX(10deg) scale(0.9);
     }
     .work-image,.work-image-paire img {

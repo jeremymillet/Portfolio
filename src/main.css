@@ -120,20 +120,10 @@ q:after {
 body {
     margin: 0px;
     background-color: #050810;
-    font-family: ExoSpace;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
-@font-face {
-    font-family: "ExoSpace";
-    src: local("ExoSpace"),
-        url("./assets/fonts/ExoSpaceDEMO.ttf") format("truetype");
-}
-
-@font-face {
-    font-family: "Cyborg";
-    src: local("Cyborg"),
-        url("./assets/fonts/Cyborg.ttf") format("truetype");
-}
 @keyframes wobble {
     0% {
         -webkit-transform: translateZ(0) scale(1);
