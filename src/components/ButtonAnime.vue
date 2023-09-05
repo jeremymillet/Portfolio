@@ -132,7 +132,7 @@ const props = defineProps(["name", "type", "link"])
         border-radius: 7px;
         box-shadow: 0 0 60px #759BFD;
         content: "";
-        height: 60px;
+        height: 70px;
         left: 50%;
         opacity: 0;
         position: absolute;
@@ -140,7 +140,7 @@ const props = defineProps(["name", "type", "link"])
         -webkit-transform: translate(-50%,-50%);
         transform: translate(-50%, -50%);
         transition: all .3s ease-in-out 0s;
-        width: 150px;
+        width: 350px;
     }
     .button{
         font-size: 16px;
@@ -152,6 +152,7 @@ const props = defineProps(["name", "type", "link"])
     .button-project:before{
         border: 3px solid #759BFD;
         width: 150px;
+        height: 60px;
     }
     .button-project:after{
         height: 80px;
