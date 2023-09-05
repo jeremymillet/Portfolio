@@ -12,7 +12,7 @@
                         <ul>
                             <li class="info-technologie" v-for="(tech, techIndex) in item.technologie" :key="techIndex">{{ tech }}</li>
                         </ul>
-                        <button><a :href="item.link">Voir</a></button>
+                        <button><a :href="item.link" target="_blank">Voir</a></button>
                     </div>
                 </div>
             </div>

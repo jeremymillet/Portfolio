@@ -1,6 +1,12 @@
 <template>
     <div class="button-container">
-        <router-link :class="props.type === 'home' ? 'button' : 'button-project'"  :to="props.link">{{ props.name }}</router-link>
+        <component :is="props.type === 'home' ? 'router-link' : 'a'" 
+                :to="props.type === 'home' ? '/Projets' : null"
+                :href="props.type !== 'home' ? props.link : null"
+                :class="props.type === 'home' ? 'button' : 'button-project'"
+                :target="props.type !== 'home' ? _blank : null">
+          {{ props.type === 'home' ? 'Tous les projets ' : 'Voir' }}
+        </component>
     </div>
 </template>
 
