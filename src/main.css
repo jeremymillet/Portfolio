@@ -132,7 +132,7 @@ body {
 }
 
 /* Exclure .navigation et ses enfants de la transformation */
-:not(.navigation){
+.navigation{
     -webkit-transform: none;
     transform: none;
 }
