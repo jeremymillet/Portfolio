@@ -1,6 +1,6 @@
 <template>
     <div class="button-container">
-        <a :class="props.type === 'home' ? 'button' : 'button-project'" :href='props.link'>{{ props.name }}</a>
+        <router-link :class="props.type === 'home' ? 'button' : 'button-project'"  :to="props.link">{{ props.name }}</router-link>
     </div>
 </template>
 
