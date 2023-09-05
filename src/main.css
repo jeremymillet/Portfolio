@@ -124,10 +124,6 @@ body {
     font-family: 'Roboto', sans-serif;
     -webkit-font-smoothing: antialiased;
 }
-*{
-    -webkit-transform: translateZ(0);
-    transform: translateZ(0);
-}
 
 @keyframes wobble {
     0% {

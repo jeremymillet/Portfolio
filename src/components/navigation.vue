@@ -93,7 +93,7 @@
     opacity: 0;
     padding: 0;
     width: 50%;
-    -webkit-animation: zoomIn .1s ease forwards;
+    -webkit-animation: zoomIn 1s ease forwards;
     animation: zoomIn 1s ease forwards;
     opacity: 1;
     transition: opacity .5s;
