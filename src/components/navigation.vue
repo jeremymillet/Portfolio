@@ -23,10 +23,10 @@
                    <router-link class="nav-link" to="/Projets">Projets</router-link>
                 </li>
                 <li class="menu-three">
-                    <a class="nav-link" href="https://drive.google.com/file/d/17XqgGEbidcZuOKwx2jN5eYVaQ68Zk6bN/view">CV</a>
+                    <a class="nav-link" href="mailto:jeremy.millet37@gmail.com">Contact</a>
                 </li>
                 <li class="menu-four">
-                    <a class="nav-link" href="mailto:jeremy.millet37@gmail.com">Contact</a>
+                   <a class="nav-link" href="https://drive.google.com/file/d/17XqgGEbidcZuOKwx2jN5eYVaQ68Zk6bN/view">CV</a>
                 </li>
             </ul>
         </div>
@@ -186,7 +186,7 @@
         -webkit-transform: rotate(0turn);
         transform: rotate(0turn);
         padding: 10px;
-        font-size: 50px;
+        font-size: 40px;
         text-align: center;
     }
     .small-menu {
@@ -197,7 +197,7 @@
         padding-right: 0rem;
     }
     .nav-link{
-        font-size: 50px;
+        font-size: 40px;
     }
 }
 </style>
