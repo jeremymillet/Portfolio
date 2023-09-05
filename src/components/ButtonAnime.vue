@@ -4,7 +4,7 @@
                 :to="props.type === 'home' ? '/Projets' : null"
                 :href="props.type !== 'home' ? props.link : null"
                 :class="props.type === 'home' ? 'button' : 'button-project'"
-                :target="props.type !== 'home' ? _blank : null">
+                :target="props.type !== 'home' ? '_blank' : null">
           {{ props.type === 'home' ? 'Tous les projets ' : 'Voir' }}
         </component>
     </div>
