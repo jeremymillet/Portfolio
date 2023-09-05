@@ -123,6 +123,10 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
+*{
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+}
 
 @keyframes wobble {
     0% {

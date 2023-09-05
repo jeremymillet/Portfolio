@@ -95,7 +95,7 @@ const props = defineProps(["workData"]);
     filter: blur(0);
     opacity: 1;
     transform: perspective(800px) rotateY(15deg) translateY(-50px) rotateX(10deg) scale(0.9);
-    -webkit-transform: perspective(800px) rotateY(15deg) translateY(-50px) rotateX(10deg) scale(0.9);
+    -webkit-transform: perspective(800px) rotateY(25deg) scale(.8) rotateX(10deg);
     transition: all .6s ease;
     width: 100%;
     height: 398px;;
@@ -106,6 +106,7 @@ const props = defineProps(["workData"]);
     box-shadow: 0 19px 67px -38px hsla(225,2%,62%,.8);
     filter: blur(0.2px);
     -webkit-filter: blur(0.2);
+    -webkit-transform: perspective(800px) rotateY(25deg) scale(.8) rotateX(10deg);
     -webkit-transform: perspective(800px) rotateY(15deg) translateY(-50px) rotateX(10deg) scale(0.9);
     transform: perspective(800px) rotateY(15deg) translateY(-50px) rotateX(10deg) scale(0.9);
 }
