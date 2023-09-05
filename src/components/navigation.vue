@@ -121,7 +121,7 @@
     margin-bottom: 20px;
 }
 .github-box p, .linkedin-box p{
-    font-size: 90px;
+    font-size: 50px;
     font-weight: 600;
     -webkit-transform: rotate(270deg);
     transform: rotate(270deg);
@@ -135,7 +135,7 @@
 }
 .nav-link {
     color: #759BFD;
-    font-size: 4.5rem;
+    font-size: 70px;
     font-weight: 900;
     letter-spacing: 3px;
     text-decoration: none;
@@ -179,6 +179,7 @@
         -webkit-transform: rotate(0turn);
         transform: rotate(0turn);
         padding-right: 2rem;
+        margin-bottom: 0px;
         width: 60px;
     }
     .github-box p,.linkedin-box p{
@@ -194,6 +195,9 @@
     }
     .small-menu ul {
         padding-right: 0rem;
+    }
+    .nav-link{
+        font-size: 50px;
     }
 }
 </style>
