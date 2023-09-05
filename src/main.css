@@ -126,7 +126,7 @@ body {
 @font-face {
     font-family: "ExoSpace";
     src: local("ExoSpace"),
-        url("./assets/fonts/Exo\ Space\ DEMO.ttf") format("truetype");
+        url("./assets/fonts/ExoSpaceDEMO.ttf") format("truetype");
 }
 
 @font-face {
