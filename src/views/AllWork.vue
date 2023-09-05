@@ -1,13 +1,17 @@
 <template>
+    <Header/>
     <div>
         <h1 class="title-all-work">{ Mes Projets }</h1>
     </div>
     <div class="projects">
         <Work v-for="workItem in data" :key="workItem.Id" :workData="workItem"/>
     </div>
+    <Footer/>
 </template>
 
 <script setup>
+import Footer from '../components/Footer.vue'
+import Header from '../components/Header.vue'
 import Work from '../components/Work.vue'
 import data from '../data/data.json'
 </script>

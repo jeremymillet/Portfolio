@@ -17,6 +17,10 @@ const router = createRouter({
     },
   ]
 })
-
+router.beforeEach((to, from, next) => {
+  // Avant chaque navigation, faites défiler la page vers le haut
+  window.scrollTo(0, 0);
+  next();
+});
 
 export default router

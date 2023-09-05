@@ -1,5 +1,6 @@
 <template>
     <div>
+        <Header/>
         <Hero />
         <Info name="Outils" />
         <div id="technologies-container">
@@ -17,11 +18,13 @@
         <Info name="Projets" />
         <Carousel :data="Data"/>
         <ButtonAnime link="/Projets" type="home" name="Tous les projets"/>
+        <Footer/>
     </div>
 </template>
 
 <script setup>
-
+import Footer from '../components/Footer.vue'
+import Header from '../components/header.vue'
 import { ref } from 'vue';
 import Data from '../data/data.json'
 import ButtonAnime from '../components/ButtonAnime.vue';
