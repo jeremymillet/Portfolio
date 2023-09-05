@@ -124,9 +124,14 @@ body {
     font-family: 'Roboto', sans-serif;
     -webkit-font-smoothing: antialiased;
 }
-*{
+* {
     -webkit-transform: translateZ(0);
     transform: translateZ(0);
+}
+
+:not(.navigation) * {
+    -webkit-transform: none;
+    transform: none;
 }
 
 @keyframes wobble {

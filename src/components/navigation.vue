@@ -108,6 +108,7 @@
     align-items: center;
     display: flex;
     flex-direction: column-reverse;
+    -webkit-transform: translateZ(0);
     transform: translateZ(0);
 }
 .github-box svg, .linkedin-box svg{
@@ -115,6 +116,9 @@
     -webkit-transform: rotate(270deg);
     transform: rotate(270deg);
     width: 85px;
+}
+.linkedin-box svg{
+    margin-bottom: 20px;
 }
 .github-box p, .linkedin-box p{
     font-size: 90px;
