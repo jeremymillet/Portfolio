@@ -24,8 +24,8 @@ const props = defineProps(["name"])
     font-size: 24px;
 }
 #info-container.show #info{
+    -webkit-animation: flipInY 2s ease forwards;
     animation: flipInY 2s ease forwards;
-    
 }
 #info-container{
     display: flex;

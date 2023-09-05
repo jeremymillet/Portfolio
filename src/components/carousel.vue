@@ -51,6 +51,7 @@ export default {
     }
     .carousel-container.show {
         opacity: 1;
+        -webkit-animation: fadeInLeft 2s ease forwards;
         animation: fadeInLeft 2s ease forwards;
     }
     .carousel-button-container {
@@ -83,6 +84,7 @@ export default {
     .active{
         display: flex;
         justify-content: center;
+        -webkit-animation: imgAnimation 0.5s;
         animation: imgAnimation 0.5s;
     }
     .carousel-next-btn,.carousel-previous-btn {
@@ -172,6 +174,7 @@ export default {
     @keyframes fadeInLeft {
         0% {
         opacity: 0;
+        -webkit-transform: translate3d(-100%,0,0);
         transform: translate3d(-100%,0,0);
         }
         100% {

@@ -86,6 +86,7 @@ body{
     column-gap: 20px;
 }
 .technologies-container.show .card-container {
+    -webkit-animation: jackInTheBox 2s ease forwards;
     animation: jackInTheBox 2s ease forwards;
 }
 .show{

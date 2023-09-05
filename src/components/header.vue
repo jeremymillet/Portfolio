@@ -48,6 +48,7 @@ export default {
         top: 0;
         z-index: 100;
         min-height: 84px;
+        -webkit-animation: fadeInDown 1s ease forwards;
         animation: fadeInDown 1s ease forwards;
     }
     .menu-toogle{

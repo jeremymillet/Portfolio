@@ -15,7 +15,7 @@ const props = defineProps(["name", "type", "link"])
 </script>
 
 <style>
-    .button-container {
+.button-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,12 +47,14 @@ const props = defineProps(["name", "type", "link"])
     opacity: 0;
     position: absolute;
     top: 50%;
+    -webkit-transform: translate(-50%,-50%);
     transform: translate(-50%, -50%);
     transition: all .3s ease-in-out 0s;
     width: 400px
 }
 
 .button:after,.button-project:after{
+    -webkit-animation: ringHome 1.5s infinite;
     animation: ringHome 1.5s infinite;
     border: 6px solid #759BFD;
     border-radius: 7px;
@@ -61,6 +63,7 @@ const props = defineProps(["name", "type", "link"])
     left: 50%;
     position: absolute;
     top: 50%;
+    -webkit-transform: translate(-50%,-50%);
     transform: translate(-50%, -50%);
     width: 30px;
     z-index: -1;
@@ -85,6 +88,7 @@ const props = defineProps(["name", "type", "link"])
     width: 150px;
 }
 .button-project:after {
+    -webkit-animation: ringWorkMini 1.5s infinite;
     animation: ringWorkMini 1.5s infinite;
     height: 30px;
     width: 30px;
@@ -101,6 +105,7 @@ const props = defineProps(["name", "type", "link"])
         width: 250px;
     }
     .button-project:after {
+        -webkit-animation: ringHomeMini 1.5s infinite;
         animation: ringHomeMini 1.5s infinite;
         height: 30px;
         width: 30px;
@@ -108,6 +113,7 @@ const props = defineProps(["name", "type", "link"])
 }
 @media (max-width: 500px) {
     .button:after{
+        -webkit-animation: ringHomeMini 1.5s infinite;
         animation: ringHomeMini 1.5s infinite;
         border: 6px solid #759BFD;
         border-radius: 7px;
@@ -116,6 +122,7 @@ const props = defineProps(["name", "type", "link"])
         left: 50%;
         position: absolute;
         top: 50%;
+        -webkit-transform: translate(-50%,-50%);
         transform: translate(-50%, -50%);
         width: 50px;
         z-index: -1;
@@ -130,6 +137,7 @@ const props = defineProps(["name", "type", "link"])
         opacity: 0;
         position: absolute;
         top: 50%;
+        -webkit-transform: translate(-50%,-50%);
         transform: translate(-50%, -50%);
         transition: all .3s ease-in-out 0s;
         width: 150px;
@@ -149,6 +157,7 @@ const props = defineProps(["name", "type", "link"])
         height: 80px;
         border: 3px solid #759BFD;
         width: 250px;
+        -webkit-animation: ringWorkMini 1.5s infinite;
         animation: ringWorkMini 1.5s infinite;
     }
 }

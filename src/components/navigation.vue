@@ -93,6 +93,7 @@
     opacity: 0;
     padding: 0;
     width: 50%;
+    -webkit-animation: zoomIn .5s ease forwards;
     animation: zoomIn 1s ease forwards;
     opacity: 1;
     transition: opacity .5s;
@@ -100,6 +101,7 @@
 }
 .github{
     background: #333;
+    -webkit-animation: zoomIn .5s ease forwards;
     animation: zoomIn .5s ease forwards;
 }
 .github-box , .linkedin-box {
@@ -110,12 +112,14 @@
 }
 .github-box svg, .linkedin-box svg{
     height: 85px;
+    -webkit-transform: rotate(270deg);
     transform: rotate(270deg);
     width: 85px;
 }
 .github-box p, .linkedin-box p{
     font-size: 90px;
     font-weight: 600;
+    -webkit-transform: rotate(270deg);
     transform: rotate(270deg);
     padding: 120px;
 
@@ -168,11 +172,13 @@
         flex-direction: row;
     }
     .github-box svg,.linkedin-box svg{
+        -webkit-transform: rotate(0turn);
         transform: rotate(0turn);
         padding-right: 2rem;
         width: 60px;
     }
     .github-box p,.linkedin-box p{
+        -webkit-transform: rotate(0turn);
         transform: rotate(0turn);
         padding: 10px;
         font-size: 50px;

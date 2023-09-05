@@ -94,8 +94,8 @@ const props = defineProps(["workData"]);
     -webkit-filter: blur(0);
     filter: blur(0);
     opacity: 1;
-    transform: perspective(800px) rotateY(15deg) translateY(-50px) rotateX(10deg) scale(0.9);
     -webkit-transform: perspective(800px) rotateY(25deg) scale(.8) rotateX(10deg);
+    transform: perspective(800px) rotateY(25deg) scale(.8) rotateX(10deg);
     transition: all .6s ease;
     width: 100%;
     height: 398px;;
@@ -104,17 +104,17 @@ const props = defineProps(["workData"]);
 }
 .work-image:hover {
     box-shadow: 0 19px 67px -38px hsla(225,2%,62%,.8);
+    -webkit-filter: blur(0);
     filter: blur(0.2px);
-    -webkit-filter: blur(0.2);
-    -webkit-transform: perspective(800px) rotateY(25deg) scale(.8) rotateX(10deg);
     -webkit-transform: perspective(800px) rotateY(15deg) translateY(-50px) rotateX(10deg) scale(0.9);
     transform: perspective(800px) rotateY(15deg) translateY(-50px) rotateX(10deg) scale(0.9);
 }
 .work-image-paire:hover {
     box-shadow: 0 19px 67px -38px hsla(225,2%,62%,.8);
+    -webkit-filter: blur(0);
     filter: blur(0.2px);
-    transform: perspective(800px) rotateY(-15deg) translateY(-50px) rotateX(10deg) scale(0.9);
     -webkit-transform: perspective(800px) rotateY(-15deg) translateY(-50px) rotateX(10deg) scale(0.9);
+    transform: perspective(800px) rotateY(-15deg) translateY(-50px) rotateX(10deg) scale(0.9);
 }
 @media (min-width: 1921px) {
    .work-image {
@@ -178,7 +178,7 @@ const props = defineProps(["workData"]);
         max-width: 900px;
     }
     .work-image{
-        -webkit-transform:perspective(800px) rotateY(-20deg) scale(.8) rotateX(10deg);
+        -webkit-transform: perspective(800px) rotateY(-20deg) scale(.8) rotateX(10deg);
         transform: perspective(800px) rotateY(-20deg) scale(.8) rotateX(10deg);
     }
     .work-image-paire{
@@ -190,7 +190,7 @@ const props = defineProps(["workData"]);
         transform: perspective(800px) rotateY(10deg) translateY(-50px) rotateX(10deg) scale(0.9);
     }
     .work-image-paire:hover {
-         -webkit-transform: perspective(800px) rotateY(-10deg) translateY(-50px) rotateX(10deg) scale(0.9);
+        -webkit-transform: perspective(800px) rotateY(-10deg) translateY(-50px) rotateX(10deg) scale(0.9);
         transform: perspective(800px) rotateY(-10deg) translateY(-50px) rotateX(10deg) scale(0.9);
     }
     .work-image,.work-image-paire img {
