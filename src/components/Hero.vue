@@ -5,7 +5,6 @@
                 <p id="name">Bonjour! je suis jérémy👋</p>
             </div>
             <h1>Un <strong class="text-blue">Développeur Web</strong>.Là Pour Aidez Les Entreprises à <strong class="text-blue">Lancer</strong> Ou <strong class="text-blue">Amélioré</strong> Leurs Produit</h1>
-            <h2>tetdyqydqhbdqbdkjqbd</h2>
         </div>
         <div id="hero-img-container">
             <img id="hero-img" src="../assets/hero-img.png" alt="">
