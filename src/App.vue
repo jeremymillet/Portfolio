@@ -31,4 +31,5 @@ import { RouterView } from "vue-router"
     column-gap: 20px;
     
 }
+
 </style>

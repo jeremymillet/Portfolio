@@ -49,6 +49,10 @@ export default {
     .carousel-container {
         width: 100%;
     }
+    .carousel-container.show {
+        opacity: 1;
+        animation: fadeInLeft 2s ease forwards;
+    }
     .carousel-button-container {
         display: flex;
         justify-content: space-between;
@@ -163,6 +167,17 @@ export default {
         z-index: 1;
         transition-delay: 0ms;
     }
+    }
+    @keyframes fadeInLeft {
+        0% {
+        opacity: 0;
+        transform: translate3d(-100%,0,0);
+        }
+        100% {
+            opacity: 1;
+            -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+        }
     }
     @media (max-width: 1150px) {
         .carousel-info{

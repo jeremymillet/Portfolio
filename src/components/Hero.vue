@@ -1,13 +1,13 @@
 <template>
-    <div id="hero">
-        <div id="texte-container">
-            <div id="name-container">
-                <p id="name">Bonjour! je suis jérémy👋</p>
+    <div class="hero">
+        <div class="texte-container">
+            <div class="name-container">
+                <p class="name">Bonjour! je suis jérémy👋</p>
             </div>
             <h1>Un <strong class="text-blue">Développeur Web</strong>.Là Pour Aidez Les Entreprises à <strong class="text-blue">Lancer</strong> Ou <strong class="text-blue">Amélioré</strong> Leurs Produit</h1>
         </div>
-        <div id="hero-img-container">
-            <img id="hero-img" src="../assets/hero-img.png" alt="">
+        <div class="hero-img-container">
+            <img class="hero-img" src="../assets/hero-img.png" alt="">
         </div>
     </div>
 </template>
@@ -17,7 +17,7 @@
 </script>
 
 <style>
-#hero{
+.hero{
     display: flex;
     align-items: center;
     background-image:linear-gradient(to right bottom, rgba(5, 8, 16, .6), rgba(5, 8, 16, .6)), url(../assets/background-hero.png);
@@ -28,10 +28,16 @@
     margin-bottom: 5vh;
     padding: 150px 100px 0;
 }
-#texte-container{
+.hero.show{
+    opacity: 1;
+}
+.texte-container{
     width: 55%;
 }
-#name-container{
+.hero.show .texte-container{
+    animation: fadeInLeft 2s ease forwards;
+}
+.name-container{
     width: 220px;
     text-align: center;
     background-color:rgb(90 196 243 / 16%);
@@ -41,7 +47,7 @@
     font-weight: 900;
     border-radius: 15px;
 }
-#texte-container h1{
+.texte-container h1{
     color: white;
     font-family: Exospace;
     font-size: 55px;
@@ -50,7 +56,7 @@
     font-weight: 900;
     text-shadow: 3px 3px 0 #1f2127, -1px -1px 0 #1f2127, 1px -1px 0 #1f2127, -1px 1px 0 #1f2127, 1px 1px 0 #1f2127;
 }
-#texte-container h2{
+.texte-container h2{
     font-size: 18px;
     font-family: Exospace;
     font-weight: 700;
@@ -62,12 +68,15 @@
     color:#f5f5f5;
     text-shadow: 3px 3px 0 #1f2127, -1px -1px 0 #1f2127, 1px -1px 0 #1f2127, -1px 1px 0 #1f2127, 1px 1px 0 #1f2127;
 }
-#hero-img-container{
+.hero-img-container{
     width: 45%;
     display: flex;
     justify-content: center;
 }
-#hero-img{
+.hero.show .hero-img-container{
+    animation: fadeInRight 2s ease forwards;
+}
+.hero-img{
 width: 80%;
 max-width: 800px;
 }
@@ -76,45 +85,67 @@ max-width: 800px;
     font-family: Cyborg;
 }
 @media (max-width: 1350px) {
-    #texte-container h1 {
+    .texte-container h1 {
         font-size: 40px;
     }
 }
 @media (max-width: 1020px) {
-    #hero{
+    .hero{
         flex-direction: column;
     }
-    #texte-container,#hero-img-container{
+    .texte-container,.hero-img-container{
         width: 100%;
     }
-    #hero-img{
+    .hero-img{
         width: auto;
 
     }
 }
 @media (max-width: 680px) {
-    #hero{
+    .hero{
         flex-direction: column;
         padding: 50px 50px 0;    
         min-height: 600px;
     }
-    #texte-container h1 {
+    .texte-container h1 {
         font-size: 30px;
     }
-    #hero-img{
+    .hero-img{
         width: 325px;
     }
 }
 @media (max-width: 420px) {
-    #hero{
+    .hero{
         padding: 50px 25px 0;
     }
-    #texte-container h1 {
+    .texte-container h1 {
         font-size: 28px;
     }
-    #hero-img{
+    .hero-img{
         width: 250px;
     }
    
 }
+@keyframes fadeInLeft {
+    0% {
+    opacity: 0;
+    transform: translate3d(-100%,0,0);
+}
+100% {
+    opacity: 1;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+}
+}
+@keyframes fadeInRight {
+    0% {
+    opacity: 0;
+    transform: translate3d(+100%,0,0);
+}
+100% {
+    opacity: 1;
+    transform: translateZ(0);
+}
+}
+
 </style>

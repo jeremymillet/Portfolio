@@ -26,5 +26,4 @@ const props = defineProps(["name","logo"])
 #card-techno-text{
     font-size: 18px;
 }
-
 </style>

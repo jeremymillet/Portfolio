@@ -48,6 +48,7 @@ export default {
         top: 0;
         z-index: 100;
         min-height: 84px;
+        animation: fadeInDown 1s ease forwards;
     }
     .menu-toogle{
       transform: none!important;  
@@ -166,6 +167,17 @@ export default {
         }
         #logo img{
             width: 70%;
+        }
+    }
+    @keyframes fadeInDown {
+        0% {
+            opacity: 0;
+            transform: translate3d(0,-100%,0);
+        }
+        100% {
+            opacity: 1;
+            
+            transform: translateZ(0);
         }
     }
 </style>
