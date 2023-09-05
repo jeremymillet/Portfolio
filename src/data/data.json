@@ -7,7 +7,7 @@
         "technologie": ["REACT", "SASS"],
         "problème":"J'avais deux types de collapse pour 1 composant, un avec une liste et un autre avec une description",
         "solution":"J'ai donc fait un composant ou on lui passe un type et selon le type on gérer l'affichage différemment.",
-        "img":"src/assets/kasa-screen.png",
+        "img":"/src/assets/kasa-screen.png",
         "link":"https://kasa-9tpg.onrender.com/"
     },
     {
@@ -17,7 +17,7 @@
         "technologie": ["Angular", "node.js","mongoDB"],
         "problème":"Il a fallu gérer la suppression, l'ajout, la modification et l'optimisation des images envoyées par l'utilisateur dans la base de données",
         "solution":"J'ai utilitser multer pour gérer l'ajout des images , la modification . FS.unlink pour la suppression et Sharp pour l'optimisation ",
-        "img":"src/assets/grimoire-screen.png",
+        "img":"/src/assets/grimoire-screen.png",
         "link":"https://front-mon-vieux-grimoire.onrender.com"
     },
     {
@@ -27,7 +27,7 @@
         "technologie": ["HTML", "CSS","JS"],
         "problème":"Le poid des images du site étais beaucoup trop gros ",
         "solution":"Réduire la résolution des images,changer leurs format(webp)",
-        "img":"src/assets/nina-screen.png",
+        "img":"/src/assets/nina-screen.png",
         "link":"https://jeremymillet.github.io/p5-openclassroom/"
     },
     {
@@ -37,7 +37,7 @@
         "technologie": ["HTML", "CSS"],
         "problème":"Sur ce projet j'ai eu un problème avec la taille des images dans les cards elle était toute différente et pas bien cadrée après avoir changé leurs tailles ",
         "solution":"J'ai donc découvert la propriété object-fit qui sert à définir la façon qu'un élément doit s'adapter à son conteneur ",
-        "img":"src/assets/booki-screen.png",
+        "img":"/src/assets/booki-screen.png",
         "link":"https://jeremymillet.github.io/booki"
     }
 ]

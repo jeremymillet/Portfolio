@@ -11,7 +11,7 @@
 
 <script setup>
 import Footer from '../components/Footer.vue'
-import Header from '../components/Header.vue'
+import Header from '../components/header.vue'
 import Work from '../components/Work.vue'
 import data from '../data/data.json'
 </script>
