@@ -131,10 +131,7 @@ body {
     transform: translateZ(0);
 }
 /* Exclure .navigation et ses enfants de la transformation */
-:not(.navigation):not(.navigation *):not(.nav-icon) {
-    -webkit-transform: none;
-    transform: none;
-}
+
 @keyframes wobble {
     0% {
         -webkit-transform: translateZ(0) scale(1);
