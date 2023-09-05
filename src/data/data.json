@@ -17,7 +17,7 @@
         "technologie": ["Angular", "node.js","mongoDB"],
         "problème":"Il a fallu gérer la suppression, l'ajout, la modification et l'optimisation des images envoyées par l'utilisateur dans la base de données",
         "solution":"J'ai utilitser multer pour gérer l'ajout des images , la modification . FS.unlink pour la suppression et Sharp pour l'optimisation ",
-        "img":"src/assets/grimoire-screen.png",
+        "img":"src/assets/grimoire-screen.pn",
         "link":"https://front-mon-vieux-grimoire.onrender.com"
     },
     {
