@@ -8,9 +8,9 @@
                 <p> {{ props.workData.name }} </p>
             </div>
             <div class="work-text-container">
+                <p><strong class="text-blue-work">description:</strong> {{ props.workData.description }}</p><br>
                 <p><strong class="text-blue-work">problème:</strong> {{ props.workData.problème }}</p><br>
                 <p><strong class="text-blue-work">solution:</strong> {{ props.workData.solution }}</p><br>
-                <p><strong class="text-blue-work">description:</strong> {{ props.workData.description }}</p><br>
             </div>
             <div class="work-button-container">
                 <ButtonAnime :link=props.workData.link type="work" name="Voir"/>

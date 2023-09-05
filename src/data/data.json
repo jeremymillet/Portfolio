@@ -18,7 +18,7 @@
         "problème":"Il a fallu gérer la suppression, l'ajout, la modification et l'optimisation des images envoyées par l'utilisateur dans la base de données",
         "solution":"J'ai utilitser multer pour gérer l'ajout des images , la modification . FS.unlink pour la suppression et Sharp pour l'optimisation ",
         "img":"src/assets/grimoire-screen.png",
-        "link":""
+        "link":"https://front-mon-vieux-grimoire.onrender.com"
     },
     {
         "Id":"3",
@@ -38,6 +38,6 @@
         "problème":"Sur ce projet j'ai eu un problème avec la taille des images dans les cards elle était toute différente et pas bien cadrée après avoir changé leurs tailles ",
         "solution":"J'ai donc découvert la propriété object-fit qui sert à définir la façon qu'un élément doit s'adapter à son conteneur ",
         "img":"src/assets/booki-screen.png",
-        "link":"https://jeremymillet.github.io/booki/#hebergements"
+        "link":"https://jeremymillet.github.io/booki"
     }
 ]
