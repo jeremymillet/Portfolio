@@ -7,15 +7,16 @@ const router = createRouter({
   routes: [
     {
       path: '/',
-      name: 'Home',
+      name: 'Acceuil',
       component: Home
     },
     {
-      path: '/Works',
-      name: 'Works',
+      path: '/Projets',
+      name: 'Projets',
       component: AllWork
     },
   ]
 })
+
 
 export default router

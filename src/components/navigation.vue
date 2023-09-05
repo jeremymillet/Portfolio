@@ -17,10 +17,10 @@
         <div class="small-menu">
             <ul>
                 <li class="menu-one">
-                    <a class="nav-link" href="/">Home</a>
+                    <router-link class="nav-link" to="/">Acceuil</router-link>
                 </li>
                 <li class="menu-two">
-                    <a class="nav-link" href="/Works">Work</a>
+                   <router-link class="nav-link" to="/Projets">Projets</router-link>
                 </li>
                 <li class="menu-three">
                     <a class="nav-link" href="https://drive.google.com/file/d/17XqgGEbidcZuOKwx2jN5eYVaQ68Zk6bN/view">CV</a>
@@ -35,7 +35,7 @@
 </template>
 
 <script>
-
+    import { RouterLink } from 'vue-router';
 </script>
 
 

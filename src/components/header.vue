@@ -1,7 +1,7 @@
 <template>
     <div id="header">
         <div id="logo">
-            <a href="/"> <img src="../assets/logo.png"  alt=""></a>
+            <router-link to="/"><img src="../assets/logo.png"  alt=""></router-link>
         </div>
         <div class="menu-toggle">
             <input @click="toggleCollapse" type="checkbox" class="nav-checkbox" id="nav-toggle">
@@ -16,7 +16,8 @@
 </template>
 
 
-<script>
+<script >
+
 import Navigation from "./navigation.vue"; // Chemin vers le composant de navigation
 
 export default {

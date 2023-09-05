@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1 class="title-all-work">{ Mes Travaux }</h1>
+        <h1 class="title-all-work">{ Mes Projets }</h1>
     </div>
     <div class="projects">
         <Work v-for="workItem in data" :key="workItem.Id" :workData="workItem"/>

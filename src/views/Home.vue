@@ -1,7 +1,7 @@
 <template>
     <div>
         <Hero />
-        <Info name="Tools" />
+        <Info name="Outils" />
         <div id="technologies-container">
             <div id="card-container">
                 <CardTechno name="React" :logo="ReactLogo" />
@@ -14,13 +14,14 @@
                 <CardTechno name="PHP" :logo="PhpLogo" />
             </div>
         </div>
-        <Info name="WORKS" />
+        <Info name="Projets" />
         <Carousel :data="Data"/>
-        <ButtonAnime link="/Works" type="home" name="Tous les projets"/>
+        <ButtonAnime link="/Projets" type="home" name="Tous les projets"/>
     </div>
 </template>
 
 <script setup>
+
 import { ref } from 'vue';
 import Data from '../data/data.json'
 import ButtonAnime from '../components/ButtonAnime.vue';
