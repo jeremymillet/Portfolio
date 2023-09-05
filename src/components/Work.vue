@@ -82,8 +82,6 @@ const props = defineProps(["workData"]);
     height: 398px;;
     max-height: 550px;
     opacity: 1;
-    -webkit-transform: translateZ(0);
-    transform: translateZ(0);
     transition: all .6s ease;
     width: 100%;
     max-width: 800px;
@@ -96,8 +94,6 @@ const props = defineProps(["workData"]);
     -webkit-filter: blur(0);
     filter: blur(0);
     opacity: 1;
-    -webkit-transform: translateZ(0);
-    transform: translateZ(0);
     -webkit-transform: perspective(800px) rotateY(25deg) scale(.8) rotateX(10deg);
     transform: perspective(800px) rotateY(25deg) scale(.8) rotateX(10deg);
     transition: all .6s ease;
@@ -107,8 +103,6 @@ const props = defineProps(["workData"]);
     max-width: 800px;
 }
 .work-image:hover {
-    -webkit-transform: translateZ(0);
-    transform: translateZ(0);
     box-shadow: 0 19px 67px -38px hsla(225,2%,62%,.8);
     -webkit-filter: blur(0);
     filter: blur(0.2px);
@@ -116,8 +110,6 @@ const props = defineProps(["workData"]);
     transform: perspective(800px) rotateY(15deg) translateY(-50px) rotateX(10deg) scale(0.9);
 }
 .work-image-paire:hover {
-    -webkit-transform: translateZ(0);
-    transform: translateZ(0);
     box-shadow: 0 19px 67px -38px hsla(225,2%,62%,.8);
     -webkit-filter: blur(0);
     filter: blur(0.2px);
