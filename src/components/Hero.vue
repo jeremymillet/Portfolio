@@ -7,7 +7,7 @@
             <h1>Un <strong class="text-blue">Développeur Web</strong>.Là Pour Aidez Les Entreprises à <strong class="text-blue">Lancer</strong> Ou <strong class="text-blue">Amélioré</strong> Leurs Produit</h1>
         </div>
         <div class="hero-img-container">
-            <img class="hero-img" src="../assets/hero-img.png" alt="">
+            <img class="hero-img" src="../assets/hero-img.webp" alt="">
         </div>
     </div>
 </template>
@@ -20,7 +20,7 @@
 .hero{
     display: flex;
     align-items: center;
-    background-image:linear-gradient(to right bottom, rgba(5, 8, 16, .6), rgba(5, 8, 16, .6)), url(../assets/background-hero.png);
+    background-image:linear-gradient(to right bottom, rgba(5, 8, 16, .6), rgba(5, 8, 16, .6)), url(../assets/background-hero.webp);
     background-size: cover;
     background-position: top;
     height: 74vh;

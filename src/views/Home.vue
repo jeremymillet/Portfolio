@@ -31,14 +31,14 @@ import ButtonAnime from '../components/ButtonAnime.vue';
 import Hero from '../components/Hero.vue';
 import CardTechno from '../components/CardTechno.vue';
 import Info from '../components/Info.vue';
-import ReactLogo from '../assets/react.png';
-import VueLogo from '../assets/vue.png';
-import SassLogo from '../assets/sass.png';
-import JsLogo from '../assets/js.png';
-import GithubLogo from '../assets/github.png';
-import NodeLogo from '../assets/node.png';
-import MongoLogo from '../assets/mongo.png';
-import PhpLogo from '../assets/php.png';
+import ReactLogo from '../assets/react.webp';
+import VueLogo from '../assets/vue.webp';
+import SassLogo from '../assets/sass.webp';
+import JsLogo from '../assets/js.webp';
+import GithubLogo from '../assets/github.webp';
+import NodeLogo from '../assets/node.webp';
+import MongoLogo from '../assets/mongo.webp';
+import PhpLogo from '../assets/php.webp';
 import Carousel from '../components/carousel.vue';
 
 onMounted(() => {
