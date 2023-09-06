@@ -30,7 +30,6 @@ import imgKasa from '../assets/kasa.webp';
 import imgNina from '../assets/nina.webp';
 import imgBooki from '../assets/booki.webp';
 import imgGrimoire from '../assets/grimoire.webp';
-console.log(Data);
 export default {
     data() {
         return {
