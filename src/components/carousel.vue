@@ -4,7 +4,7 @@
             :class="{ active: currentDataIndex === index }">
             <img class="carousel-background" :src="item.img" alt="Carousel" />
             <div class="carousel-info">
-                <img :src="item.img" alt="">
+                <img :src=item.img alt="">
                 <div class="carousel-info-text">
                     <h2>{{item.name}}</h2>
                     <p>{{item.description}}</p>
