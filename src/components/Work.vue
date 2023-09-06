@@ -20,14 +20,17 @@
 </template>
 <script setup>
 import ButtonAnime from './ButtonAnime.vue'
-
+import imgKasa from '../assets/kasa.webp';
+import imgNina from '../assets/nina.webp';
+import imgBooki from '../assets/booki.webp';
+import imgGrimoire from '../assets/grimoire.webp';
 const props = defineProps(["workData"]);
 
 const item = {
-    imgKasa: '', // Remplacez par le nom de votre élément actuel
-    imgGrimoire: '',
-    imgBooki: '',
-    imgNina: '',
+    imgKasa, // Remplacez par le nom de votre élément actuel
+    imgGrimoire,
+    imgBooki,
+    imgNina,
     // Ajoutez d'autres images au besoin
 }
 
