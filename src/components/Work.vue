@@ -1,7 +1,7 @@
 <template>
     <div :class="['work', { 'work-paire': props.workData.Id % 2 !== 0 }]">
         <div class="work-image-container">
-            <img :class="['work-image', { 'work-image-paire': props.workData.Id % 2 !== 0 }]" crossorigin="anonymous" :src="props.workData.img" alt="">
+            <img :class="['work-image', { 'work-image-paire': props.workData.Id % 2 !== 0 }]" crossorigin="anonymous" :src=getImageSource(props.workData.Id) alt="">
         </div>
         <div class="text-part">
             <div class="work-name-container">
@@ -20,8 +20,13 @@
 </template>
 <script setup>
 import ButtonAnime from './ButtonAnime.vue'
+import imgKasa from '../assets/kasa.webp';
+import imgNina from '../assets/nina.webp';
+import imgBooki from '../assets/booki.webp';
+import imgGrimoire from '../assets/grimoire.webp'
 
 const props = defineProps(["workData"]);
+
 
 const item = {
     imgKasa, // Remplacez par le nom de votre élément actuel
@@ -45,8 +50,7 @@ function getImageSource(id) {
             return '';
     }
 }
-</script >
-
+</script>
 
 <style>
 .work,.work-paire {
