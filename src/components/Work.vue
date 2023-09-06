@@ -21,6 +21,7 @@
 <script setup>
 import ButtonAnime from './ButtonAnime.vue'
 const props = defineProps(["workData"]);
+console.log(props.workData.img);
 </script>
 
 <style>

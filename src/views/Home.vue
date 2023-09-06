@@ -40,10 +40,7 @@ import NodeLogo from '../assets/node.webp';
 import MongoLogo from '../assets/mongo.webp';
 import PhpLogo from '../assets/php.webp';
 import Carousel from '../components/carousel.vue';
-import imgKasa from '../assets/kasa.webp';
-import imgnina from '../assets/nina.webp';
-import imgbooki from '../assets/booki.webp';
-import imggrimoire from '../assets/grimoire.webp';
+
 
 
 

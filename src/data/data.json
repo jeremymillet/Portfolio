@@ -7,7 +7,7 @@
         "technologie": ["REACT", "SASS"],
         "problème":"J'avais deux types de collapse pour 1 composant, un avec une liste et un autre avec une description",
         "solution":"J'ai donc fait un composant ou on lui passe un type et selon le type on gérer l'affichage différemment.",
-        "img":"assets/kasa.webp",
+        "img":"src/assets/kasa.webp",
         "link":"https://kasa-9tpg.onrender.com/"
     },
     {
@@ -17,7 +17,7 @@
         "technologie": ["Angular", "node.js","mongoDB"],
         "problème":"Il a fallu gérer la suppression, l'ajout, la modification et l'optimisation des images envoyées par l'utilisateur dans la base de données",
         "solution":"J'ai utilitser multer pour gérer l'ajout des images , la modification . FS.unlink pour la suppression et Sharp pour l'optimisation ",
-        "img":"sr/assets/grimoire.webp",
+        "img":"src/assets/grimoire.webp",
         "link":"https://front-mon-vieux-grimoire.onrender.com"
     },
     {
