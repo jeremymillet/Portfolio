@@ -1,7 +1,7 @@
 <template>
     <div id="header">
         <div id="logo">
-            <router-link to="/"><img src="../assets/logo.png"  alt=""></router-link>
+            <router-link to="/"><img src="../assets/logo.webp"  alt=""></router-link>
         </div>
         <div class="menu-toggle">
             <input @click="toggleCollapse" type="checkbox" class="nav-checkbox" id="nav-toggle">
