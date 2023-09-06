@@ -2,7 +2,7 @@
     <section class="carousel-container">
         <div v-for="(item, index) in Data" :key="index" class="carousel"
             :class="{ active: currentDataIndex === index }">
-            <img class="carousel-background" :src="item.img" alt="Carousel" />
+            <img class="carousel-background" :src=item.img alt="Carousel" />
             <div class="carousel-info">
                 <img :src=item.img alt="">
                 <div class="carousel-info-text">
@@ -26,7 +26,7 @@
 
 <script>
 import Data from '../data/data.json';
-
+console.log(Data);
 export default {
     data() {
         return {

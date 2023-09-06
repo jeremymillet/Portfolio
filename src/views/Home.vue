@@ -16,17 +16,17 @@
             </div>
         </div>
         <Info name="Projets" class="hidden" />
-        <Carousel :data="Data" class="hidden"/>
+        <Carousel class="hidden"/>
         <ButtonAnime link="/Projets" type="home" name="Tous les projets"/>
         <Footer/>
     </div>
 </template>
 
 <script setup>
+
 import { ref, onMounted } from 'vue';
 import Footer from '../components/Footer.vue';
 import Header from '../components/header.vue';
-import Data from '../data/data.json';
 import ButtonAnime from '../components/ButtonAnime.vue';
 import Hero from '../components/Hero.vue';
 import CardTechno from '../components/CardTechno.vue';
@@ -40,6 +40,12 @@ import NodeLogo from '../assets/node.webp';
 import MongoLogo from '../assets/mongo.webp';
 import PhpLogo from '../assets/php.webp';
 import Carousel from '../components/carousel.vue';
+import imgKasa from '../assets/kasa.webp';
+import imgnina from '../assets/nina.webp';
+import imgbooki from '../assets/booki.webp';
+import imggrimoire from '../assets/grimoire.webp';
+
+
 
 onMounted(() => {
     const hiddenElements = document.querySelectorAll('.hidden');
