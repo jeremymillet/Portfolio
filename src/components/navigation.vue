@@ -26,7 +26,7 @@
                     <a class="nav-link" href="mailto:jeremy.millet37@gmail.com">Contact</a>
                 </li>
                 <li class="menu-four">
-                   <a class="nav-link" href="https://drive.google.com/file/d/17XqgGEbidcZuOKwx2jN5eYVaQ68Zk6bN/view">CV</a>
+                   <a class="nav-link" href="https://drive.google.com/file/d/14g7_gZ7fXEnq2_MvHe8wc0c3H0mKGv2Y/view">CV</a>
                 </li>
             </ul>
         </div>
