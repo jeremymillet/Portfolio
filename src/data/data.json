@@ -7,7 +7,7 @@
         "technologie": ["REACT", "SASS"],
         "problème":"J'avais deux types de collapse pour 1 composant, un avec une liste et un autre avec une description",
         "solution":"J'ai donc fait un composant ou on lui passe un type et selon le type on gérer l'affichage différemment.",
-        "img":"./assets/kasa.webp",
+        "img":"kasa.webp",
         "link":"https://kasa-9tpg.onrender.com/"
     },
     {

@@ -2,9 +2,9 @@
     <section class="carousel-container">
         <div v-for="(item, index) in Data" :key="index" class="carousel"
             :class="{ active: currentDataIndex === index }">
-            <img class="carousel-background" :src=item.img alt="Carousel" />
+            <img class="carousel-background" :src=getImageSource(item.Id) alt="Carousel" />
             <div class="carousel-info">
-                <img :src=item.img alt="">
+                <img :src=getImageSource(item.Id) alt="">
                 <div class="carousel-info-text">
                     <h2>{{item.name}}</h2>
                     <p>{{item.description}}</p>
@@ -26,11 +26,22 @@
 
 <script>
 import Data from '../data/data.json';
+import imgKasa from '../assets/kasa.webp';
+import imgNina from '../assets/nina.webp';
+import imgBooki from '../assets/booki.webp';
+import imgGrimoire from '../assets/grimoire.webp';
 export default {
     data() {
         return {
             currentDataIndex: 0,
             Data: Data,
+             item: {
+                imgKasa, // Remplacez par le nom de votre élément actuel
+                imgGrimoire,
+                imgBooki,
+                imgNina,
+                // Ajoutez d'autres images au besoin
+            },
         };
     },
     methods: {
