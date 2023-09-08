@@ -2,9 +2,9 @@
     <section class="carousel-container">
         <div v-for="(item, index) in Data" :key="index" class="carousel"
             :class="{ active: currentDataIndex === index }">
-            <img class="carousel-background" :src=getImageSource(item.Id) alt="Carousel" />
+            <img class="carousel-background" :src=getImageSource(item.id) alt="Carousel" />
             <div class="carousel-info">
-                <img :src=getImageSource(item.Id) alt="">
+                <img :src=getImageSource(item.id) alt="">
                 <div class="carousel-info-text">
                     <h2>{{item.name}}</h2>
                     <p>{{item.description}}</p>
@@ -50,6 +50,18 @@ export default {
         },
         goToPreviousImage() {
             this.currentDataIndex = (this.currentDataIndex - 1 + this.Data.length) % this.Data.length;
+        },
+        getImageSource(id) {
+            switch (id) {
+                case '1':
+                    return this.item.imgKasa;
+                case '2':
+                    return this.item.imgGrimoire;
+                case '4':
+                    return this.item.imgBooki;
+                case '3':
+                    return this.item.imgNina;
+            }
         },
     },
 };
