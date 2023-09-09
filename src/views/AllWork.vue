@@ -4,7 +4,7 @@
         <h1 class="title-all-work">{ Mes Projets }</h1>
     </div>
     <div class="projects">
-        <Work v-for="workItem in data" :key="workItem.Id" :workData="workItem"/>
+        <Work v-for="workItem in data" :key="workItem.id" :workData="workItem"/>
     </div>
     <Footer/>
 </template>

@@ -1,5 +1,5 @@
 <template>
-    <div :class="['work', { 'work-paire': props.workData.Id % 2 !== 0 }]">
+    <div :class="['work', { 'work-paire': props.workData.id % 2 !== 0 }]">
         <div class="work-image-container">
             <img :class="['work-image', { 'work-image-paire': props.workData.id % 2 !== 0 }]" crossorigin="anonymous" :src=getImageSource(props.workData.id) alt="">
         </div>
