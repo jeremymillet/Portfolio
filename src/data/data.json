@@ -3,30 +3,30 @@
     {   
         "id":"1",
         "name":"kasa",
-        "description":"Kasa est un site de réservation de logement pour les vacances types airbnb celui-ci était un projet réalisé dans le cadre de mes études,j'ai développé le front-end à l'aide d'une maquette",
+        "description":"Kasa est un site de réservation de logement pour les vacances type airbnb celui-ci était un projet réalisé dans le cadre de mes études, j'ai développé le front-end à l'aide d'une maquette",
         "technologie": ["REACT", "SASS"],
-        "problème":"J'avais deux types de collapse pour 1 composant, un avec une liste et un autre avec une description",
-        "solution":"J'ai donc fait un composant ou on lui passe un type et selon le type on gérer l'affichage différemment.",
+        "problème":"J'avais deux types de collapses pour 1 composant, un avec une liste et un autre avec une description",
+        "solution":"J'ai donc fait un composant où on lui passe un type et selon le type on gère l'affichage différemment.",
         "img":"kasa.webp",
         "link":"https://kasa-9tpg.onrender.com/"
     },
     {
         "id":"2",
         "name":"Mon vieux grimoire",
-        "description":"Réalisation du back-end d'un site de notation de livre,création d'une api et d'une mongoDB",
+        "description":"Réalisation du back-end d'un site de notation de livre, création d'une API et d'une base de donnée mongoDB",
         "technologie": ["Angular", "node.js","mongoDB"],
-        "problème":"Il a fallu gérer la suppression, l'ajout, la modification et l'optimisation des images envoyées par l'utilisateur dans la base de données",
-        "solution":"J'ai utilitser multer pour gérer l'ajout des images , la modification . FS.unlink pour la suppression et Sharp pour l'optimisation ",
+        "problème":"Il à fallu gérer la suppression, l'ajout, la modification et l'optimisation des images envoyées par l'utilisateur dans la base de données.",
+        "solution":"J'ai utilisé multer pour gérer l'ajout des images, la modification, FS.unlink pour la suppression et Sharp pour l'optimisation ",
         "img":"./assets/grimoire.webp",
         "link":"https://front-mon-vieux-grimoire.onrender.com"
     },
     {
         "id":"3",
         "name":" SEO portfolio photographe",
-        "description":"Le site vitrine d'une photographe, ceci est un projet réalisé dans le cadre de mes études je devais améliorer le SEO d'un site déjà exitant",
+        "description":"Le site vitrine d'une photographe, ceci est un projet réalisé dans le cadre de mes études je devais améliorer le SEO d'un site déjà existant",
         "technologie": ["HTML", "CSS","JS"],
-        "problème":"Le poid des images du site étais beaucoup trop gros ",
-        "solution":"Réduire la résolution des images,changer leurs format(webp)",
+        "problème":"Le poids des images du site était beaucoup trop conséquent ",
+        "solution":"Réduire la résolution des images, changer leurs formats(webp)",
         "img":"./assets/nina.webp",
         "link":"https://jeremymillet.github.io/p5-openclassroom/"
     },
@@ -35,8 +35,8 @@
         "name":"booki",
         "description":"V.1 static d'un site qui permet de trouver un logement pour les vacances et qui propose des activités dans la ville de votre choix, ici le but était d'intégrer la maquette et de gérer le responsive pour avoir un premier rendu",
         "technologie": ["HTML", "CSS"],
-        "problème":"Sur ce projet j'ai eu un problème avec la taille des images dans les cards elle était toute différente et pas bien cadrée après avoir changé leurs tailles ",
-        "solution":"J'ai donc découvert la propriété object-fit qui sert à définir la façon qu'un élément doit s'adapter à son conteneur ",
+        "problème":"Sur ce projet j'ai eu un problème avec la taille des images dans les cards elles étaient toutes différentes et pas bien cadrées après avoir changé leurs tailles ",
+        "solution":"J'ai donc découvert la propriété object-fit qui sert à définir la façon dont un élément s'adapte à son conteneur ",
         "img":"./assets/booki.webp",
         "link":"https://jeremymillet.github.io/booki"
     }
