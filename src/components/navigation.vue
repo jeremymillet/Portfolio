@@ -19,9 +19,6 @@
                 <li class="menu-one">
                     <router-link class="nav-link" to="/">Acceuil</router-link>
                 </li>
-                <li class="menu-two">
-                   <router-link class="nav-link" to="/Projets">Projets</router-link>
-                </li>
                 <li class="menu-three">
                     <a class="nav-link" href="mailto:jeremy.millet37@gmail.com">Contact</a>
                 </li>

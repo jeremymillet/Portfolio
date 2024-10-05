@@ -4,7 +4,7 @@
             <div class="name-container">
                 <p class="name">Bonjour! je suis jérémy👋</p>
             </div>
-            <h1>Un <strong class="text-blue">Développeur Web</strong>.Là Pour Aidez Les Entreprises à <strong class="text-blue">Lancer</strong> Ou <strong class="text-blue">Amélioré</strong> Leurs Produit</h1>
+            <h1>Un <strong class="text-blue">Développeur Web</strong>.Là Pour Aider Les Entreprises à <strong class="text-blue">Lancer</strong> Ou <strong class="text-blue">Améliorer</strong> Leurs Produits</h1>
         </div>
         <div class="hero-img-container">
             <img class="hero-img" src="../assets/hero-img.webp" alt="">

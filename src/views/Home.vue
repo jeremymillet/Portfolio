@@ -17,7 +17,6 @@
         </div>
         <Info name="Projets" class="hidden" />
         <Carousel class="hidden"/>
-        <ButtonAnime link="/Projets" type="home" name="Tous les projets"/>
         <Footer/>
     </div>
 </template>
