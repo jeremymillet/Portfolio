@@ -32,7 +32,7 @@
                 </li>
                 <li class="menu-four">
                     <a class="nav-link"
-                        href="https://drive.google.com/file/d/1dQtf46RZPE-UGgKjjqNOvFYhJqvcU0f3/view?usp=drive_link">CV</a>
+                        href="https://drive.google.com/file/d/1tgjGiPnwZY1JMROGwTvroVkAotCJlv0N/view?usp=sharing">CV</a>
                 </li>
             </ul>
         </div>
